@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "skincare": "Skincare",
+    "maquillage": "Maquillage",
+    "reviews": "Reviews",
+    "wellness": "Wellness & Spa",
+    "marques": "Marques Suisses",
+    "mode": "Mode",
+    "cheveux": "Cheveux",
+    "newsletter": "Newsletter",
+    "search": "Rechercher",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero_title": "La beauté a un accent suisse",
+    "hero_subtitle": "Découvrez les meilleurs soins, tendances et secrets beauté de Suisse",
+    "trending": "Tendances",
+    "latest": "Derniers articles",
+    "popular_reviews": "Reviews populaires",
+    "discover_brands": "Découvrir nos marques suisses",
+    "read_more": "Lire la suite",
+    "view_all": "Voir tout"
+  },
+  "newsletter": {
+    "title": "Rejoignez la communauté BELLE SUISSE",
+    "subtitle": "Recevez chaque semaine les meilleures astuces beauté",
+    "placeholder": "Votre email",
+    "button": "S'inscrire",
+    "success": "Bienvenue dans la communauté !",
+    "error": "Oups, réessayez...",
+    "count": "Rejoignez {count} femmes suisses"
+  },
+  "article": {
+    "min_read": "min de lecture",
+    "share": "Partager",
+    "related": "Articles similaires",
+    "comments": "Commentaires",
+    "products_mentioned": "Produits mentionnés",
+    "table_of_contents": "Sommaire",
+    "published": "Publié le",
+    "by": "Par"
+  },
+  "product": {
+    "buy_at": "Acheter chez",
+    "price": "Prix",
+    "rating": "Note",
+    "our_verdict": "Notre verdict",
+    "pros": "Les +",
+    "cons": "Les -",
+    "available_at": "Disponible chez"
+  },
+  "box": {
+    "title": "Box Beauté Suisse",
+    "subtitle": "Chaque mois, 5 produits beauté suisses livrés chez vous",
+    "join_waitlist": "Rejoindre la liste d'attente",
+    "coming_soon": "Bientôt disponible"
+  },
+  "footer": {
+    "slogan": "La beauté a un accent suisse",
+    "categories": "Catégories",
+    "brands": "Marques",
+    "about": "À propos",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "rights": "Tous droits réservés",
+    "made_in": "Fait avec amour en Suisse"
+  },
+  "search": {
+    "title": "Rechercher",
+    "placeholder": "Rechercher un article, une marque...",
+    "no_results": "Aucun résultat trouvé",
+    "results_for": "Résultats pour"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "name": "Votre nom",
+    "email": "Votre email",
+    "subject": "Sujet",
+    "message": "Votre message",
+    "send": "Envoyer",
+    "success": "Message envoyé avec succès !",
+    "error": "Erreur lors de l'envoi"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "back": "Retour",
+    "chf": "CHF"
+  }
+}

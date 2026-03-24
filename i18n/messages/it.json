@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "skincare": "Skincare",
+    "maquillage": "Trucco",
+    "reviews": "Recensioni",
+    "wellness": "Wellness & Spa",
+    "marques": "Marchi Svizzeri",
+    "mode": "Moda",
+    "cheveux": "Capelli",
+    "newsletter": "Newsletter",
+    "search": "Cerca",
+    "about": "Chi siamo",
+    "contact": "Contatto"
+  },
+  "home": {
+    "hero_title": "La bellezza ha un accento svizzero",
+    "hero_subtitle": "Scoprite le migliori cure, tendenze e segreti di bellezza della Svizzera",
+    "trending": "Tendenze",
+    "latest": "Ultimi articoli",
+    "popular_reviews": "Recensioni popolari",
+    "discover_brands": "Scoprite i nostri marchi svizzeri",
+    "read_more": "Continua a leggere",
+    "view_all": "Vedi tutto"
+  },
+  "newsletter": {
+    "title": "Unisciti alla community BELLE SUISSE",
+    "subtitle": "Ricevi ogni settimana i migliori consigli di bellezza",
+    "placeholder": "La tua email",
+    "button": "Iscriviti",
+    "success": "Benvenuta nella community!",
+    "error": "Ops, riprova...",
+    "count": "Unisciti a {count} donne svizzere"
+  },
+  "article": {
+    "min_read": "min di lettura",
+    "share": "Condividi",
+    "related": "Articoli simili",
+    "comments": "Commenti",
+    "products_mentioned": "Prodotti menzionati",
+    "table_of_contents": "Sommario",
+    "published": "Pubblicato il",
+    "by": "Di"
+  },
+  "product": {
+    "buy_at": "Acquista da",
+    "price": "Prezzo",
+    "rating": "Voto",
+    "our_verdict": "Il nostro verdetto",
+    "pros": "Pro",
+    "cons": "Contro",
+    "available_at": "Disponibile da"
+  },
+  "box": {
+    "title": "Box Bellezza Svizzera",
+    "subtitle": "Ogni mese, 5 prodotti di bellezza svizzeri a casa tua",
+    "join_waitlist": "Iscriviti alla lista d'attesa",
+    "coming_soon": "Presto disponibile"
+  },
+  "footer": {
+    "slogan": "La bellezza ha un accento svizzero",
+    "categories": "Categorie",
+    "brands": "Marchi",
+    "about": "Chi siamo",
+    "legal": "Note legali",
+    "privacy": "Privacy",
+    "rights": "Tutti i diritti riservati",
+    "made_in": "Fatto con amore in Svizzera"
+  },
+  "search": {
+    "title": "Cerca",
+    "placeholder": "Cerca un articolo, un marchio...",
+    "no_results": "Nessun risultato trovato",
+    "results_for": "Risultati per"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "name": "Il tuo nome",
+    "email": "La tua email",
+    "subject": "Oggetto",
+    "message": "Il tuo messaggio",
+    "send": "Invia",
+    "success": "Messaggio inviato con successo!",
+    "error": "Errore nell'invio"
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Si è verificato un errore",
+    "back": "Indietro",
+    "chf": "CHF"
+  }
+}

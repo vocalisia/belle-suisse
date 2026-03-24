@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "skincare": "Skincare",
+    "maquillage": "Makeup",
+    "reviews": "Reviews",
+    "wellness": "Wellness & Spa",
+    "marques": "Swiss Brands",
+    "mode": "Fashion",
+    "cheveux": "Hair",
+    "newsletter": "Newsletter",
+    "search": "Search",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero_title": "Beauty with a Swiss accent",
+    "hero_subtitle": "Discover the best care, trends and beauty secrets from Switzerland",
+    "trending": "Trending",
+    "latest": "Latest articles",
+    "popular_reviews": "Popular reviews",
+    "discover_brands": "Discover our Swiss brands",
+    "read_more": "Read more",
+    "view_all": "View all"
+  },
+  "newsletter": {
+    "title": "Join the BELLE SUISSE community",
+    "subtitle": "Get the best beauty tips every week",
+    "placeholder": "Your email",
+    "button": "Subscribe",
+    "success": "Welcome to the community!",
+    "error": "Oops, try again...",
+    "count": "Join {count} Swiss women"
+  },
+  "article": {
+    "min_read": "min read",
+    "share": "Share",
+    "related": "Related articles",
+    "comments": "Comments",
+    "products_mentioned": "Products mentioned",
+    "table_of_contents": "Table of contents",
+    "published": "Published on",
+    "by": "By"
+  },
+  "product": {
+    "buy_at": "Buy at",
+    "price": "Price",
+    "rating": "Rating",
+    "our_verdict": "Our verdict",
+    "pros": "Pros",
+    "cons": "Cons",
+    "available_at": "Available at"
+  },
+  "box": {
+    "title": "Swiss Beauty Box",
+    "subtitle": "Every month, 5 Swiss beauty products delivered to your door",
+    "join_waitlist": "Join the waitlist",
+    "coming_soon": "Coming soon"
+  },
+  "footer": {
+    "slogan": "Beauty with a Swiss accent",
+    "categories": "Categories",
+    "brands": "Brands",
+    "about": "About",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "rights": "All rights reserved",
+    "made_in": "Made with love in Switzerland"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search an article, a brand...",
+    "no_results": "No results found",
+    "results_for": "Results for"
+  },
+  "contact": {
+    "title": "Contact us",
+    "name": "Your name",
+    "email": "Your email",
+    "subject": "Subject",
+    "message": "Your message",
+    "send": "Send",
+    "success": "Message sent successfully!",
+    "error": "Error sending message"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "back": "Back",
+    "chf": "CHF"
+  }
+}

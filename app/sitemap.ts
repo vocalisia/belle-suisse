@@ -1,0 +1,62 @@
+import { MetadataRoute } from 'next';
+import { locales } from '@/i18n/config';
+import { getAllArticles } from '@/lib/articles';
+import { getAllBrands } from '@/lib/brands';
+
+const baseUrl = 'https://bellesuisse.ch';
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const articles = getAllArticles();
+  const brands = getAllBrands();
+  const categories = ['skincare', 'maquillage', 'reviews', 'wellness', 'marques-suisses', 'mode', 'cheveux'];
+
+  const entries: MetadataRoute.Sitemap = [];
+
+  // Home pages
+  for (const locale of locales) {
+    entries.push({
+      url: `${baseUrl}/${locale}`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 1,
+    });
+  }
+
+  // Category pages
+  for (const locale of locales) {
+    for (const cat of categories) {
+      entries.push({
+        url: `${baseUrl}/${locale}/${cat}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.8,
+      });
+    }
+  }
+
+  // Article pages
+  for (const locale of locales) {
+    for (const article of articles) {
+      entries.push({
+        url: `${baseUrl}/${locale}/${article.category}/${article.slug}`,
+        lastModified: new Date(article.date),
+        changeFrequency: 'monthly',
+        priority: 0.7,
+      });
+    }
+  }
+
+  // Brand pages
+  for (const locale of locales) {
+    for (const brand of brands) {
+      entries.push({
+        url: `${baseUrl}/${locale}/marques-suisses/${brand.slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      });
+    }
+  }
+
+  return entries;
+}

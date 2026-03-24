@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "skincare": "Hautpflege",
+    "maquillage": "Make-up",
+    "reviews": "Bewertungen",
+    "wellness": "Wellness & Spa",
+    "marques": "Schweizer Marken",
+    "mode": "Mode",
+    "cheveux": "Haare",
+    "newsletter": "Newsletter",
+    "search": "Suchen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "hero_title": "Schönheit mit Schweizer Akzent",
+    "hero_subtitle": "Entdecken Sie die besten Pflege, Trends und Beauty-Geheimnisse der Schweiz",
+    "trending": "Trends",
+    "latest": "Neueste Artikel",
+    "popular_reviews": "Beliebte Bewertungen",
+    "discover_brands": "Unsere Schweizer Marken entdecken",
+    "read_more": "Weiterlesen",
+    "view_all": "Alle ansehen"
+  },
+  "newsletter": {
+    "title": "Werden Sie Teil der BELLE SUISSE Community",
+    "subtitle": "Erhalten Sie wöchentlich die besten Beauty-Tipps",
+    "placeholder": "Ihre E-Mail",
+    "button": "Anmelden",
+    "success": "Willkommen in der Community!",
+    "error": "Ups, versuchen Sie es erneut...",
+    "count": "Schliessen Sie sich {count} Schweizerinnen an"
+  },
+  "article": {
+    "min_read": "Min. Lesezeit",
+    "share": "Teilen",
+    "related": "Ähnliche Artikel",
+    "comments": "Kommentare",
+    "products_mentioned": "Erwähnte Produkte",
+    "table_of_contents": "Inhaltsverzeichnis",
+    "published": "Veröffentlicht am",
+    "by": "Von"
+  },
+  "product": {
+    "buy_at": "Kaufen bei",
+    "price": "Preis",
+    "rating": "Bewertung",
+    "our_verdict": "Unser Urteil",
+    "pros": "Vorteile",
+    "cons": "Nachteile",
+    "available_at": "Erhältlich bei"
+  },
+  "box": {
+    "title": "Schweizer Beauty Box",
+    "subtitle": "Jeden Monat 5 Schweizer Beauty-Produkte zu Ihnen nach Hause",
+    "join_waitlist": "Auf die Warteliste setzen",
+    "coming_soon": "Bald verfügbar"
+  },
+  "footer": {
+    "slogan": "Schönheit mit Schweizer Akzent",
+    "categories": "Kategorien",
+    "brands": "Marken",
+    "about": "Über uns",
+    "legal": "Impressum",
+    "privacy": "Datenschutz",
+    "rights": "Alle Rechte vorbehalten",
+    "made_in": "Mit Liebe in der Schweiz gemacht"
+  },
+  "search": {
+    "title": "Suchen",
+    "placeholder": "Artikel, Marke suchen...",
+    "no_results": "Keine Ergebnisse gefunden",
+    "results_for": "Ergebnisse für"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "name": "Ihr Name",
+    "email": "Ihre E-Mail",
+    "subject": "Betreff",
+    "message": "Ihre Nachricht",
+    "send": "Senden",
+    "success": "Nachricht erfolgreich gesendet!",
+    "error": "Fehler beim Senden"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten",
+    "back": "Zurück",
+    "chf": "CHF"
+  }
+}
