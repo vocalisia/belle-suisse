@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import StarRating from './StarRating';
 import Badge from '@/components/ui/Badge';
+import { getAffiliateUrl } from '@/lib/affiliates';
 
 interface ProductCardProps {
   name: string;
@@ -16,6 +17,9 @@ interface ProductCardProps {
 export default function ProductCard({
   name, brand, price, rating, image, affiliateUrl, availableAt, buyLabel = 'Découvrir'
 }: ProductCardProps) {
+  // Use centralized affiliate system, fallback to provided URL
+  const href = getAffiliateUrl(name, availableAt) || affiliateUrl || '#';
+
   return (
     <div className="bg-white rounded-2xl border border-or-luxe/20 overflow-hidden hover:shadow-lg transition-all duration-300 group">
       <div className="relative aspect-square bg-blanc-creme">
@@ -36,9 +40,9 @@ export default function ProductCard({
         <div className="flex items-center justify-between mt-3">
           <span className="font-bold text-noir-elegant">{price} CHF</span>
           <a
-            href={affiliateUrl}
+            href={href}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-1 px-3 py-1.5 bg-noir-elegant text-white text-xs rounded-full hover:bg-noir-elegant/90 transition-colors"
           >
             {buyLabel}

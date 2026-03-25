@@ -1,0 +1,39 @@
+# BELLE SUISSE — Premium Swiss Beauty Magazine
+
+> BELLE SUISSE is the first digital magazine dedicated to Swiss beauty. We cover skincare, makeup, product reviews, wellness & spa, and Swiss beauty brands. Available in 5 languages: French, German, English, Italian, Russian.
+
+## About
+
+BELLE SUISSE covers the Swiss beauty industry with independent reviews, expert guides, and brand profiles. Our focus is on Swiss-made cosmetics and beauty products from brands like La Prairie, Valmont, Weleda, Declaré, and Mavala.
+
+## Key Topics
+
+- Swiss skincare and anti-aging products
+- Makeup trends and tutorials
+- Product reviews and comparisons (with CHF pricing)
+- Swiss spas and wellness destinations
+- Swiss beauty brand profiles and history
+- Beauty box subscription (coming soon)
+
+## Content Categories
+
+- /fr/skincare — Skincare articles and guides
+- /fr/maquillage — Makeup tutorials and trends
+- /fr/reviews — Independent product reviews
+- /fr/wellness — Spa reviews and wellness tips
+- /fr/marques-suisses — Swiss brand profiles (La Prairie, Valmont, Weleda, Declaré, Mavala)
+- /fr/mode — Fashion and style
+- /fr/cheveux — Hair care and styling
+
+## Languages
+
+- French (primary): /fr/
+- German: /de/
+- English: /en/
+- Italian: /it/
+- Russian: /ru/
+
+## Contact
+
+- Website: https://belle-suisse.vercel.app
+- Contact page: https://belle-suisse.vercel.app/fr/contact
