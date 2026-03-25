@@ -121,19 +121,81 @@ NON NÉGOCIABLE ! Le SPF est le meilleur anti-âge qui existe. Minimum SPF 30, t
       { name: 'Skin Caviar Luxe Cream', brand: 'La Prairie', price: 485, rating: 4.8, image: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400&h=400&fit=crop', affiliateUrl: '#', availableAt: 'Manor' },
       { name: 'Prime Renewing Pack', brand: 'Valmont', price: 195, rating: 4.7, image: 'https://images.unsplash.com/photo-1612817288484-6f916006741a?w=400&h=400&fit=crop', affiliateUrl: '#', availableAt: 'Globus' },
     ],
-    content: `Dans le monde de la cosmétique de luxe, deux noms suisses dominent : La Prairie et Valmont. Deux maisons genevoises, deux approches du soin ultime. Mais laquelle mérite vraiment votre investissement ?
+    content: `Dans le monde de la cosmétique de luxe, deux noms suisses se livrent un duel au sommet : La Prairie et Valmont. Deux maisons helvétiques, deux philosophies radicalement différentes, mais un même objectif : offrir ce que la science suisse fait de mieux pour la peau. Ce comparatif exhaustif vous aidera à faire le choix le plus éclairé entre ces deux géants.
 
-## La Prairie : Le luxe absolu
+## L'histoire de deux maisons d'exception
 
-Fondée en 1978, La Prairie est synonyme de luxe absolu. Son ingrédient star ? Le caviar. Avec la gamme Skin Caviar, la marque promet fermeté et éclat grâce à la technologie cellulaire exclusive.
+## La Prairie : du caviar à la cosmétique cellulaire
 
-## Valmont : La science de la beauté
+L'histoire de La Prairie commence en 1978 à Zurich, inspirée par la célèbre Clinique La Prairie de Montreux, fondée en 1931 par le professeur Paul Niehans, pionnier de la thérapie cellulaire. L'idée révolutionnaire ? Transposer les découvertes de la médecine régénérative suisse dans des soins cosmétiques accessibles — enfin, relativement accessibles. La marque se distingue dès ses débuts par l'utilisation d'extraits de caviar, un ingrédient alors inédit en cosmétique. Le caviar, riche en phospholipides, acides aminés et oligo-éléments, devient la signature de La Prairie et le fondement de sa gamme la plus iconique : Skin Caviar, lancée dans les années 1980. Aujourd'hui, La Prairie est détenue par le groupe Beiersdorf et génère un chiffre d'affaires estimé à plus de 2 milliards de CHF. Ses laboratoires zurichois restent le cœur de la recherche et du développement. Chaque produit est formulé et fabriqué en Suisse, un gage de qualité que la marque revendique fièrement.
 
-Valmont, fondée en 1985, mise sur la cosmétique cellulaire. Née dans un spa au bord du lac Léman, la marque utilise l'ADN et l'ARN pour régénérer les cellules de la peau.
+## Valmont : la renaissance cellulaire depuis Genève
 
-## Le verdict
+Valmont naît en 1985 sur les rives du lac Léman, à Genève. La marque puise son inspiration dans les eaux glaciaires des Alpes suisses et dans la recherche en biologie cellulaire. Fondée par Didier Guillon, un visionnaire passionné d'art et de science, Valmont développe une approche unique basée sur l'ADN et l'ARN pour stimuler la régénération cellulaire. Contrairement à La Prairie qui mise sur le caviar, Valmont s'appuie sur la cosmétique cellulaire pure : des complexes bioactifs issus de la recherche en biotechnologie. La marque reste familiale et indépendante, ce qui lui permet de maintenir un contrôle total sur la qualité et l'innovation. Valmont est aussi intimement liée au monde de l'art, avec la Fondation Valmont qui soutient des artistes contemporains — un positionnement culturel unique dans l'industrie cosmétique.
 
-Si budget illimité : La Prairie pour le prestige et les résultats sur le long terme. Pour un excellent rapport qualité-luxe : Valmont offre des résultats impressionnants à un prix plus accessible.`,
+## Philosophie : caviar contre cellules
+
+La grande différence entre ces deux maisons tient à leur philosophie fondamentale. La Prairie mise sur le luxe sensoriel et le pouvoir du caviar. L'expérience La Prairie, c'est l'opulence : des textures riches, des packagings en cobalt blue reconnaissables entre mille, et une promesse de résultats visibles portée par des ingrédients rares et précieux. Le caviar n'est pas qu'un argument marketing — les extraits utilisés sont riches en protéines, vitamines et minéraux qui renforcent la barrière cutanée et stimulent la production de collagène.
+
+Valmont, de son côté, adopte une approche plus scientifique et clinique. Sa philosophie repose sur trois piliers : régénérer, structurer et énergiser la peau au niveau cellulaire. Les complexes ADN/ARN utilisés par Valmont visent à fournir aux cellules cutanées les éléments nécessaires à leur renouvellement. C'est une approche plus "médicale" de la beauté, moins axée sur le sensoriel pur et davantage sur l'efficacité mesurable.
+
+## Comparatif des gammes phares
+
+## La Prairie — Skin Caviar Collection
+
+La gamme Skin Caviar est le vaisseau amiral de La Prairie. Elle comprend le Skin Caviar Luxe Cream (la crème iconique), le Skin Caviar Liquid Lift (sérum liftant), le Skin Caviar Eye Lift (soin contour des yeux), et le Skin Caviar Essence-in-Lotion (lotion préparatrice). Chaque produit intègre le Caviar Premier, un complexe exclusif qui associe caviar ferme et caviar tendre pour une action anti-âge complète. L'autre gamme majeure est la Platinum Rare Collection, positionnée encore plus haut en gamme, avec des soins enrichis en platine pour une action anti-âge ultime.
+
+## Valmont — Prime Collection et L'Elixir des Glaciers
+
+La Prime Collection de Valmont est sa gamme signature, avec le célèbre Prime Renewing Pack (masque-crème culte), la Prime B-Cellular (sérum revitalisant) et la Prime Contour (soin yeux-lèvres). Pour le segment ultra-luxe, Valmont propose L'Elixir des Glaciers, une ligne qui rivalise directement avec la Platinum Rare de La Prairie, avec des soins formulés à partir d'eaux glaciaires et de complexes cellulaires concentrés.
+
+## Analyse des ingrédients stars
+
+Ce qui rend La Prairie unique, c'est l'extrait de caviar. Le Caviar Premier combine caviar ferme (pour la fermeté) et caviar tendre (pour le lissage). À cela s'ajoutent des peptides exclusifs, de l'acide hyaluronique et des extraits botaniques suisses. La technologie cellulaire de La Prairie est protégée par de nombreux brevets. Côté Valmont, la force réside dans les complexes ADN/ARN d'origine marine, qui fournissent aux cellules les "briques" nécessaires à leur régénération. Le Triple DNA Complex est l'ingrédient phare. Valmont utilise également des liposomes pour une meilleure pénétration des actifs, ainsi que des eaux glaciaires des Alpes riches en minéraux.
+
+## Tableau comparatif des prix (CHF)
+
+| Produit La Prairie | Prix | Produit Valmont | Prix |
+|---|---|---|---|
+| Skin Caviar Luxe Cream (50ml) | 485 CHF | Prime Renewing Pack (50ml) | 195 CHF |
+| Skin Caviar Liquid Lift (50ml) | 420 CHF | Prime B-Cellular (30ml) | 280 CHF |
+| Skin Caviar Eye Lift (20ml) | 380 CHF | Prime Contour (15ml) | 195 CHF |
+| Platinum Rare Cream (30ml) | 850 CHF | L'Elixir des Glaciers Crème (50ml) | 650 CHF |
+| Skin Caviar Essence-in-Lotion (150ml) | 295 CHF | Primary Veil (150ml) | 120 CHF |
+
+Constat clair : Valmont se positionne en moyenne 30 à 40% en dessous de La Prairie. Pour une qualité qui, selon de nombreux dermatologues, est tout à fait comparable. Le rapport qualité-prix penche nettement en faveur de Valmont.
+
+## L'expérience spa : deux mondes différents
+
+## Les spas La Prairie
+
+La Prairie a choisi une stratégie d'implantation dans les palaces les plus prestigieux du monde. En Suisse, l'expérience La Prairie la plus emblématique se vit au Ritz-Carlton Hotel de la Paix à Genève et au Bürgenstock Resort. Les soins spa La Prairie sont de véritables rituels de luxe : le Caviar Indulgence (2h, environ 550 CHF) est considéré comme l'un des meilleurs soins visage au monde. L'atmosphère est feutrée, les cabines somptueuses, et chaque détail transpire l'opulence.
+
+## Les spas Valmont
+
+Valmont possède ses propres spas, les Maisons Valmont, ainsi que des espaces dédiés dans des hôtels sélectionnés. En Suisse, le spa Valmont au Beau-Rivage Palace de Lausanne est une référence. L'approche est différente de La Prairie : moins ostentatoire mais tout aussi raffinée, avec un accent sur la personnalisation des soins. Le soin signature V-Firm (1h30, environ 350 CHF) combine massage sculptant et application de produits ciblés pour un effet lifting immédiat. L'ambiance mêle art contemporain et bien-être, reflet de l'ADN artistique de la marque.
+
+## Quel marque pour quelle préoccupation cutanée ?
+
+Le choix entre La Prairie et Valmont dépend beaucoup de vos préoccupations spécifiques. Pour l'anti-âge profond et la fermeté, La Prairie excelle grâce au caviar qui nourrit et restructure la peau en profondeur sur le long terme. La Skin Caviar Luxe Cream est imbattable pour les peaux matures qui cherchent à retrouver fermeté et densité. Pour un éclat immédiat et un coup d'éclat visible, Valmont est souvent supérieure. Le Prime Renewing Pack offre un résultat instantané spectaculaire — c'est le soin d'urgence avant un événement par excellence.
+
+Pour les peaux matures avec rides installées, La Prairie et sa technologie Platinum Rare apportent les résultats les plus significatifs sur la durée. Pour un effet lifting visible sans chirurgie, Valmont et ses complexes cellulaires offrent une alternative remarquable, particulièrement avec la gamme V-Line Lifting.
+
+En résumé : La Prairie pour la profondeur et le long terme, Valmont pour l'éclat et l'effet immédiat.
+
+## Où acheter en Suisse
+
+Pour La Prairie, les meilleurs points de vente sont les corners Manor (Genève, Zurich, Berne, Lausanne), les boutiques La Prairie dédiées (rue du Rhône à Genève) et les spas partenaires dans les grands hôtels. Les conseillères Manor sont généralement bien formées et peuvent vous proposer des échantillons.
+
+Pour Valmont, privilégiez Globus (tous les grands magasins), les Maisons Valmont (Genève), les pharmacies haut de gamme, et bien sûr le site valmont-cosmetics.com pour la Suisse. Globus propose régulièrement des coffrets exclusifs Valmont à des prix avantageux.
+
+Astuce : les deux marques proposent des échantillons généreux dans leurs points de vente. N'hésitez pas à tester pendant une semaine avant d'investir.
+
+## Notre verdict d'expert
+
+Si vous ne devez en choisir qu'une, voici notre recommandation. Si votre budget est de 500+ CHF et que vous cherchez le summum du luxe cosmétique avec des résultats anti-âge profonds sur le long terme, La Prairie est incomparable. La Skin Caviar Luxe Cream mérite sa réputation. Si votre budget est de 200 à 400 CHF et que vous cherchez un excellent rapport qualité-résultats avec un effet visible rapidement, Valmont est le choix le plus intelligent. Le Prime Renewing Pack est peut-être le meilleur soin visage disponible en Suisse pour moins de 200 CHF.
+
+Dans l'idéal ? Combiner les deux. Un sérum Valmont au quotidien pour la régénération cellulaire, et une crème La Prairie pour sceller le tout avec la puissance du caviar. C'est la routine ultime des connaisseurs suisses — et c'est celle que nous recommandons à celles qui veulent le meilleur, tout simplement.`,
   },
   {
     slug: 'tendances-maquillage-printemps-ete-2025',
@@ -355,27 +417,100 @@ Formule naturelle à base de vitamine C et pivoine blanche. Efficace sur les tac
     featured: true,
     readTime: 10,
     products: [],
-    content: `La Suisse est un paradis du wellness. Entre lacs, montagnes et air pur, nos spas sont parmi les meilleurs au monde. Voici notre sélection des 15 plus beaux.
+    content: `La Suisse est un paradis du wellness. Avec ses sources thermales millénaires, ses panoramas alpins à couper le souffle et son exigence de qualité légendaire, le pays offre certains des plus beaux spas au monde. Que vous cherchiez un week-end romantique en couple, une retraite bien-être en solo ou une escapade luxueuse entre amies, ce guide complet vous aidera à trouver le spa parfait. Nous avons visité, testé et comparé les 10 meilleurs spas de Suisse pour vous offrir un guide définitif.
 
 ## 1. Bürgenstock Alpine Spa — Lucerne
 
-Le plus spectaculaire de Suisse. Perché à 500m au-dessus du lac des Quatre-Cantons, ce spa de 10'000 m² offre une piscine extérieure infinity avec vue à couper le souffle.
+Le Bürgenstock Alpine Spa est sans conteste le spa le plus spectaculaire de Suisse, et probablement l'un des plus beaux au monde. Perché à 500 mètres au-dessus du lac des Quatre-Cantons, ce complexe de 10'000 m² a été entièrement rénové en 2017 dans le cadre du Bürgenstock Resort. La piscine infinity extérieure, chauffée à 35°C, offre une vue vertigineuse sur le lac et les Alpes — une expérience presque irréelle, surtout au coucher du soleil. Le spa comprend 15 salles de soins, un espace fitness ultra-moderne, des saunas panoramiques, des bains de vapeur aux herbes alpines et une grotte de sel. Les soins utilisent les produits La Prairie et Kerstin Florian.
+
+Prix : à partir de 350 CHF la nuit en chambre double, accès spa inclus. Soin signature : Alpine Herbal Wrap (1h30, 280 CHF). Idéal pour : couples en quête d'une expérience inoubliable. Comment y accéder : depuis Lucerne, prenez le bateau jusqu'à Kehrsiten puis le funiculaire historique jusqu'au resort. Le trajet fait partie de l'expérience. Conseil d'initié : réservez la piscine infinity en semaine — le week-end, elle peut être bondée. Et demandez une chambre avec vue lac, la différence est considérable.
 
 ## 2. Victoria-Jungfrau Grand Hotel & Spa — Interlaken
 
-Un classique du wellness suisse. Le spa ESPA offre des soins d'exception dans un cadre Belle Époque face aux Alpes bernoises.
+Le Victoria-Jungfrau est une légende du wellness suisse depuis 1865. Ce palace Belle Époque, idéalement situé entre les lacs de Thoune et de Brienz, abrite le ESPA Spa sur 5'500 m². C'est l'un des rares spas en Suisse à offrir une vue directe sur la trilogie emblématique Eiger-Mönch-Jungfrau. L'espace comprend une piscine intérieure et extérieure, des bains à remous, des saunas finlandais et bio, un hammam, une salle de relaxation et 11 cabines de soins. Les produits ESPA sont d'origine britannique et réputés pour leur approche holistique combinant aromathérapie et techniques de massage avancées.
+
+Prix : à partir de 450 CHF la nuit, accès spa inclus. Soin signature : ESPA Inner Calm Massage (1h, 210 CHF). Idéal pour : amateurs de patrimoine hôtelier et de panoramas alpins. Comment y accéder : Interlaken est à 1h de Berne en train, gare Interlaken-Ost. L'hôtel est à 5 minutes à pied. Conseil d'initié : combinez votre séjour avec une excursion au Jungfraujoch (Top of Europe) — le contraste entre l'altitude glaciale et la chaleur du spa est magique.
 
 ## 3. The Dolder Grand — Zurich
 
-4'000 m² de pur luxe au-dessus de Zurich. Piscine extérieure chauffée, vue panoramique sur le lac et les Alpes.
+Le Dolder Grand domine Zurich depuis la colline d'Adlisberg, offrant une vue panoramique sur la ville, le lac et la chaîne alpine. Son spa de 4'000 m², rénové par Norman Foster, est un chef-d'œuvre de design. L'espace comprend 18 salles de soins, une piscine intérieure et extérieure chauffée, un espace aquatique avec différentes températures, des saunas et hammams, et un salon de coiffure. Les soins sont dispensés avec les produits Valmont, Sisley et Susanne Kaufmann. Le Dolder est particulièrement apprécié des Zurichoises pour ses rituels visage Valmont d'une efficacité remarquable.
+
+Prix : à partir de 550 CHF la nuit, accès spa inclus. Entrée spa seule (sans hébergement) : 95 CHF en semaine. Soin signature : Dolder Grand Signature Facial avec Valmont (1h30, 350 CHF). Idéal pour : luxe urbain, escapade sans quitter la ville. Comment y accéder : depuis le centre de Zurich, prenez le Dolderbahn (funiculaire) depuis Römerhof — 8 minutes de trajet. Conseil d'initié : le brunch du dimanche au restaurant The Restaurant (2 étoiles Michelin) suivi d'un après-midi spa est la combinaison parfaite pour un dimanche zurichois de rêve.
 
 ## 4. Thermalbad & Spa Zurich
 
-Un spa urbain unique, installé dans une ancienne brasserie. L'architecture mêle histoire industrielle et design contemporain.
+Voici l'un des spas les plus originaux de Suisse. Installé dans l'ancienne brasserie Hürlimann, le Thermalbad & Spa Zurich allie patrimoine industriel et wellness contemporain. L'eau thermale provient de la source Aqui, découverte lors du forage pour la brasserie. Le clou du spectacle : la piscine sur le toit, un bassin thermal à 35°C offrant une vue à 360° sur les toits de Zurich et les Alpes. L'intérieur mêle voûtes en pierre, tuyauteries apparentes et lumières tamisées — une atmosphère unique, à mi-chemin entre cathédrale et usine réhabilitée. On y trouve des bains à différentes températures (de 34 à 42°C), un bain irlando-romain, des douches sensorielles et un espace de relaxation.
+
+Prix : entrée bains 38 CHF (2h), 52 CHF (3h). Soins à partir de 90 CHF. Idéal pour : citytrip wellness, amateurs d'architecture, petits budgets. Comment y accéder : tramway depuis la gare centrale de Zurich, arrêt Hürlimann Areal (15 minutes). Conseil d'initié : venez en fin de journée pour le coucher de soleil depuis la piscine sur le toit — c'est le meilleur moment, et l'entrée après 20h est souvent moins chère.
 
 ## 5. Lavey-les-Bains — Vaud
 
-Les eaux les plus chaudes de Suisse (69°C à la source). Un bain thermal authentique face aux montagnes.`,
+Lavey-les-Bains détient un record : ses eaux thermales sont les plus chaudes de Suisse avec une température de 69°C à la source. Situées au pied des Dents-du-Midi dans le Chablais vaudois, ces thermes offrent une expérience authentique loin du luxe ostentatoire. L'eau est naturellement riche en sulfates, calcium et magnésium, reconnue pour ses vertus thérapeutiques sur les rhumatismes, les tensions musculaires et les affections cutanées. Le complexe comprend des bassins intérieurs et extérieurs, un espace sauna-hammam, une rivière à contre-courant et un espace de soins. L'hôtel attenant permet de prolonger l'expérience.
+
+Prix : entrée thermes 35 CHF (3h). Nuit + thermes à partir de 180 CHF. Soin signature : Bain thermal aux herbes des Alpes (30 min, 45 CHF). Idéal pour : cures thérapeutiques, escapade nature, budget raisonnable. Comment y accéder : en train jusqu'à Saint-Maurice, puis bus (10 minutes). En voiture, à 1h de Lausanne via l'autoroute A9. Conseil d'initié : le bassin extérieur en hiver, avec la vapeur qui s'élève face aux montagnes enneigées, est une expérience absolument inoubliable. Préférez les jours de semaine pour une tranquillité maximale.
+
+## 6. Leukerbad Therme — Valais
+
+Leukerbad est le plus grand complexe thermal alpin d'Europe, et ce depuis l'époque romaine. Situé à 1'411 mètres d'altitude dans la vallée de la Dala, ce village valaisan est entièrement dédié au thermalisme. Le complexe Leukerbad Therme dispose de 10 bassins intérieurs et extérieurs alimentés par des sources chaudes naturelles (51°C), totalisant 300 m² de surface d'eau. L'eau est riche en sulfate de calcium et bénéficie d'une reconnaissance médicale pour le traitement des troubles musculo-squelettiques. Mais au-delà de l'aspect thérapeutique, se baigner dans un bassin extérieur à 38°C entouré de falaises de 2'000 mètres est une expérience sensorielle unique.
+
+Prix : entrée thermes 33 CHF (3h), carte journalière 29 CHF. Hébergement dès 120 CHF/nuit. Idéal pour : familles, randonneurs, amateurs de montagne, petits budgets. Comment y accéder : en train jusqu'à Loèche (Leuk), puis bus postal jusqu'à Leukerbad (30 minutes de montée spectaculaire). Conseil d'initié : combinez la journée thermes avec la via ferrata de la Gemmi ou la randonnée jusqu'au col de la Gemmi. Après l'effort physique, les bains chauds sont un pur bonheur. En hiver, la station offre aussi du ski, ce qui permet de combiner sport et détente.
+
+## 7. Tamina Therme Bad Ragaz — Saint-Gall
+
+Bad Ragaz est LA station thermale historique de Suisse orientale, connue depuis le XIIIe siècle. L'eau thermale jaillit à 36.5°C de la gorge de la Tamina, une faille rocheuse impressionnante accessible via un tunnel creusé dans la montagne. La Tamina Therme est un complexe thermal moderne et élégant comprenant un grand bassin intérieur, un bassin extérieur avec vue sur les montagnes, un espace sauna avec sauna finlandais, bio-sauna, bain de vapeur et douches d'expérience. L'eau de la Tamina est reconnue pour ses propriétés bénéfiques sur la circulation sanguine et les articulations. À proximité, le Grand Resort Bad Ragaz propose des soins médicaux et esthétiques haut de gamme.
+
+Prix : entrée thermes 30 CHF (2h), 40 CHF (4h). Nuit au Grand Resort dès 400 CHF. Soin signature : Tamina Thermal Ritual (2h, 220 CHF). Idéal pour : cure thermale authentique, séjour médico-wellness. Comment y accéder : gare de Bad Ragaz sur la ligne CFF Zurich-Coire (1h15 depuis Zurich). Conseil d'initié : visitez absolument la gorge de la Tamina (Taminaschlucht) où l'eau jaillit de la roche — c'est l'une des gorges les plus impressionnantes de Suisse et elle est ouverte de mai à octobre. L'accès coûte seulement 5 CHF.
+
+## 8. Mineralbad & Spa Rigi Kaltbad — Lucerne
+
+Ce spa est une œuvre d'art signée Mario Botta, le célèbre architecte tessinois. Perché à 1'438 mètres d'altitude sur le Rigi, la "reine des montagnes", le Mineralbad & Spa Rigi Kaltbad offre des bains minéraux en plein air avec une vue imprenable sur le lac des Quatre-Cantons et les Alpes. Le bâtiment de Botta, tout en géométrie et pierre ocre, s'intègre magistralement dans le paysage. L'espace comprend un grand bassin extérieur chauffé, des bains intérieurs, un hammam, des saunas et des salles de repos. L'eau minérale locale est utilisée pour les bains et les soins.
+
+Prix : entrée bains 35 CHF (3h). Soins à partir de 80 CHF. Idéal pour : amateurs d'architecture et de nature, randonneurs, escapade insolite. Comment y accéder : depuis Weggis (lac des Quatre-Cantons), prenez le téléphérique Rigi Kaltbad. Depuis Vitznau, le train à crémaillère. Le trajet fait partie intégrante de l'expérience. Conseil d'initié : venez pour le lever du soleil. Le Rigi est célèbre pour ses aubes spectaculaires — Mark Twain et Victor Hugo en ont fait l'éloge. Se baigner dans l'eau chaude en regardant le soleil illuminer les Alpes est un moment de grâce absolue.
+
+## 9. Hôtel & Spa Lenkerhof — Oberland bernois
+
+Le Lenkerhof est un joyau caché dans la vallée du Simmental, au pied du Wildstrubel. Ce qui rend ce spa unique, ce sont ses 7 sources thermales privées, chacune avec une composition minérale différente. Le spa de 2'000 m² propose des bains intérieurs et extérieurs alimentés par ces sources, un espace sauna avec vue panoramique, des cabines de soins et un espace de relaxation. L'atmosphère est intimiste — loin du gigantisme de certains complexes, le Lenkerhof offre un cocon de sérénité. Les soins utilisent des produits Alpienne, une marque locale qui exploite les plantes alpines de la région.
+
+Prix : à partir de 280 CHF la nuit en demi-pension, accès spa inclus. Soin signature : Bain aux 7 Sources (45 min, 120 CHF). Idéal pour : couples, séjour intime, amateurs de nature préservée. Comment y accéder : en train jusqu'à Lenk im Simmental (2h depuis Berne avec changement à Zweisimmen). Conseil d'initié : demandez le bain privé "Source du Wildstrubel" — une expérience à deux dans une eau thermale exclusive, face aux montagnes. Réservation impérative, places très limitées.
+
+## 10. Tschuggen Bergoase — Grisons
+
+Le Tschuggen Bergoase à Arosa est l'œuvre du designer italien Carlo Rampazzi, et c'est un spa comme aucun autre en Suisse. Sa signature architecturale : des voiles de verre et d'acier qui émergent de la montagne, laissant filtrer la lumière naturelle dans les espaces souterrains. Le spa de 5'000 m² est littéralement creusé dans la montagne et relié à l'hôtel Tschuggen Grand par un train privé. On y trouve des piscines intérieures et extérieures, un parcours sauna avec sauna finlandais, bio-sauna, hammam et bain de vapeur, des grottes de granit, et 12 salles de soins. Les produits utilisés sont signés La Prairie et Ligne St Barth.
+
+Prix : à partir de 450 CHF la nuit, accès spa inclus. Soin signature : Tschuggen Alpine Ritual (2h, 320 CHF). Idéal pour : luxe alpin, architecture design, séjour ski + spa. Comment y accéder : train jusqu'à Arosa depuis Coire (ligne panoramique, 1h de trajet spectaculaire à travers les gorges de la Schanfigg). Conseil d'initié : en hiver, skiez le matin sur les pistes d'Arosa-Lenzerheide puis passez l'après-midi au spa — le forfait combiné ski + spa est souvent proposé par l'hôtel à un tarif avantageux.
+
+## Tableau comparatif
+
+| Spa | Région | Prix entrée/nuit | Surface | Idéal pour | Note |
+|---|---|---|---|---|---|
+| Bürgenstock Alpine Spa | Lucerne | 350 CHF/nuit | 10'000 m² | Couples, luxe | 5/5 |
+| Victoria-Jungfrau | Interlaken | 450 CHF/nuit | 5'500 m² | Patrimoine, Alpes | 4.5/5 |
+| The Dolder Grand | Zurich | 550 CHF/nuit | 4'000 m² | Luxe urbain | 5/5 |
+| Thermalbad Zurich | Zurich | 38 CHF/2h | 600 m² | Citytrip, budget | 4/5 |
+| Lavey-les-Bains | Vaud | 35 CHF/3h | 1'500 m² | Thermalisme, nature | 4/5 |
+| Leukerbad Therme | Valais | 33 CHF/3h | 3'000 m² | Famille, montagne | 4.5/5 |
+| Tamina Therme | Saint-Gall | 30 CHF/2h | 2'000 m² | Cure, histoire | 4/5 |
+| Rigi Kaltbad | Lucerne | 35 CHF/3h | 1'200 m² | Architecture, vue | 4.5/5 |
+| Lenkerhof | Berne | 280 CHF/nuit | 2'000 m² | Intimité, nature | 4.5/5 |
+| Tschuggen Bergoase | Grisons | 450 CHF/nuit | 5'000 m² | Design, ski + spa | 5/5 |
+
+## Comment choisir son spa suisse : le guide décisionnel
+
+Le choix du spa idéal dépend de plusieurs critères. Voici notre guide pour vous aider à décider.
+
+Pour un budget serré (moins de 50 CHF), optez pour les thermes publiques : Leukerbad, Lavey-les-Bains ou Tamina Therme. Ces établissements offrent une expérience thermale authentique à prix démocratique, avec des eaux naturellement chaudes et des panoramas alpins.
+
+Pour un week-end en couple, le Bürgenstock et le Lenkerhof sont nos deux favoris. Le Bürgenstock pour le wow factor et le luxe spectaculaire, le Lenkerhof pour l'intimité et le romantisme discret. Les deux offrent des expériences de bains privés parfaites pour les amoureux.
+
+Pour une escapade urbaine, le Thermalbad Zurich est imbattable pour le rapport expérience-prix, tandis que le Dolder Grand est le choix pour celles et ceux qui veulent le grand luxe sans quitter la ville.
+
+Pour les amateurs d'architecture et de design, trois spas se distinguent : le Mineralbad Rigi Kaltbad (Mario Botta), le Tschuggen Bergoase (Carlo Rampazzi) et le Thermalbad Zurich (patrimoine industriel reconverti). Ces trois lieux prouvent que le wellness suisse est aussi une affaire d'esthétique.
+
+Pour combiner sport et détente, Leukerbad (randonnée, ski) et le Tschuggen à Arosa (ski alpin) sont les meilleurs choix. Rien de tel qu'un bain thermal après une journée sur les pistes ou les sentiers.
+
+Enfin, pour une cure thérapeutique sérieuse, Bad Ragaz et ses eaux de la Tamina restent la référence médicale en Suisse, avec un accompagnement médical professionnel et des protocoles de soins reconnus.
+
+Quelle que soit votre choix, un week-end spa en Suisse est toujours une expérience exceptionnelle. La combinaison unique d'eaux thermales naturelles, de paysages alpins grandioses et du savoir-faire suisse en matière de service crée des moments de bien-être incomparables. Notre recommandation : essayez-en au moins trois différents pour trouver celui qui deviendra votre refuge personnel de sérénité.`,
   },
   {
     slug: 'alimentation-peau-superaliments-teint',

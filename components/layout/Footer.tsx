@@ -117,6 +117,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href={`/${locale}/politique-editoriale`} className="text-white/60 hover:text-white text-sm transition-colors">
+                  Politique éditoriale
+                </Link>
+              </li>
+              <li>
                 <Link href={`/${locale}/mentions-legales`} className="text-white/60 hover:text-white text-sm transition-colors">
                   {t('legal')}
                 </Link>

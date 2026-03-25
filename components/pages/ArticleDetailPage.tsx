@@ -8,6 +8,8 @@ import NewsletterBanner from '@/components/newsletter/NewsletterBanner';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import JsonLd from '@/components/seo/JsonLd';
 import { getArticleBySlug, getArticlesByCategory } from '@/lib/articles';
+import { getAuthorByName } from '@/lib/authors';
+import Link from 'next/link';
 
 const categoryLabels: Record<string, Record<string, string>> = {
   fr: { skincare: 'Skincare', maquillage: 'Maquillage', reviews: 'Reviews', wellness: 'Wellness & Spa', 'marques-suisses': 'Marques Suisses', mode: 'Mode', cheveux: 'Cheveux' },
@@ -55,7 +57,7 @@ export default function ArticleDetailPage({ slug }: { slug: string }) {
         author: {
           '@type': 'Person',
           name: article.author,
-          url: `${baseUrl}/${locale}/a-propos`,
+          url: `${baseUrl}/${locale}/auteurs/${article.author.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, '-')}`,
           jobTitle: 'Rédactrice beauté',
           worksFor: { '@type': 'Organization', name: 'BELLE SUISSE' },
         },
@@ -98,7 +100,7 @@ export default function ArticleDetailPage({ slug }: { slug: string }) {
         author: {
           '@type': 'Person',
           name: article.author,
-          url: `${baseUrl}/${locale}/a-propos`,
+          url: `${baseUrl}/${locale}/auteurs/${article.author.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, '-')}`,
           jobTitle: 'Rédactrice beauté',
           worksFor: { '@type': 'Organization', name: 'BELLE SUISSE' },
         },
@@ -155,7 +157,7 @@ export default function ArticleDetailPage({ slug }: { slug: string }) {
           {/* Main content */}
           <article className="lg:col-span-2">
             <ShareButtons
-              url={`https://bellesuisse.ch/${locale}/${article.category}/${article.slug}`}
+              url={`${baseUrl}/${locale}/${article.category}/${article.slug}`}
               title={article.title}
               label={t('share')}
             />
@@ -168,6 +170,24 @@ export default function ArticleDetailPage({ slug }: { slug: string }) {
             <p className="mt-8 text-sm text-gris-doux italic border-t pt-4">
               Cet article contient des liens affiliés. En achetant via nos liens, vous soutenez BELLE SUISSE sans surcoût pour vous.
             </p>
+
+            {/* Author card */}
+            {(() => {
+              const authorData = getAuthorByName(article.author);
+              if (!authorData) return null;
+              return (
+                <div className="mt-8 p-6 bg-rose-clair/30 rounded-2xl flex gap-4 items-start">
+                  <img src={authorData.image} alt={authorData.name} className="w-16 h-16 rounded-full object-cover flex-shrink-0" />
+                  <div>
+                    <Link href={`/${locale}/auteurs/${authorData.slug}`} className="font-bold text-noir-elegant hover:text-rose-principal transition-colors">
+                      {authorData.name}
+                    </Link>
+                    <p className="text-sm text-rose-principal mb-1">{authorData.jobTitle}</p>
+                    <p className="text-sm text-gris-doux line-clamp-2">{authorData.bio.split('\n\n')[0]}</p>
+                  </div>
+                </div>
+              );
+            })()}
           </article>
 
           {/* Sidebar */}
