@@ -3,7 +3,7 @@ import { locales } from '@/i18n/config';
 import { getAllArticles } from '@/lib/articles';
 import { getAllBrands } from '@/lib/brands';
 
-const baseUrl = 'https://bellesuisse.ch';
+const baseUrl = 'https://belle-suisse.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllArticles();
@@ -54,6 +54,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.6,
+      });
+    }
+  }
+
+  // Static pages
+  const staticPages = ['a-propos', 'contact', 'newsletter', 'mentions-legales', 'confidentialite', 'cgv', 'faq', 'livraison', 'box-beaute'];
+  for (const locale of locales) {
+    for (const page of staticPages) {
+      entries.push({
+        url: `${baseUrl}/${locale}/${page}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.4,
       });
     }
   }

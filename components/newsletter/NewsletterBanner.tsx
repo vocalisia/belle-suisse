@@ -47,6 +47,7 @@ export default function NewsletterBanner() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder={t('placeholder')}
+              aria-label={t('placeholder')}
               required
               className="flex-1 px-5 py-3 rounded-full border border-gray-200 focus:outline-none focus:ring-2 focus:ring-rose-principal text-sm"
             />

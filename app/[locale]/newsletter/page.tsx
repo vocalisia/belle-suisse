@@ -3,6 +3,8 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 import NewsletterForm from '@/components/newsletter/NewsletterForm';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 
+export const metadata = { title: 'Newsletter' };
+
 export default function NewsletterPage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('newsletter');

@@ -32,9 +32,13 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
 
   const labels = categoryLabels[locale] || categoryLabels.fr;
 
-  const allProducts = getAllArticles()
-    .flatMap((a) => a.products)
-    .slice(0, 8);
+  const allProductsRaw = getAllArticles().flatMap((a) => a.products);
+  const seen = new Set<string>();
+  const allProducts = allProductsRaw.filter((p) => {
+    if (seen.has(p.name)) return false;
+    seen.add(p.name);
+    return true;
+  }).slice(0, 8);
 
   const jsonLd = {
     '@context': 'https://schema.org',

@@ -2,6 +2,8 @@ import Breadcrumb from '@/components/layout/Breadcrumb';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
+export const metadata = { title: 'Mentions légales' };
+
 export default function MentionsLegalesPage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('footer');
@@ -19,7 +21,11 @@ export default function MentionsLegalesPage({ params: { locale } }: { params: { 
         <p>
           BELLE SUISSE<br />
           Magazine digital de beauté<br />
-          Suisse
+          [Raison sociale / Nom de l'entreprise]<br />
+          CHE-XXX.XXX.XXX (numéro IDE à compléter)<br />
+          [Adresse postale]<br />
+          [Code postal] [Ville], Suisse<br />
+          Email : contact@bellesuisse.ch
         </p>
 
         <h2 className="font-playfair text-2xl font-bold text-noir-elegant mt-8">Hébergement</h2>

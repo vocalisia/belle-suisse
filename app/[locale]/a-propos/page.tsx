@@ -3,6 +3,8 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import NewsletterBanner from '@/components/newsletter/NewsletterBanner';
 
+export const metadata = { title: 'À propos' };
+
 export default function AboutPage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('footer');

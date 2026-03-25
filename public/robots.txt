@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bellesuisse.ch/sitemap.xml
+Sitemap: https://belle-suisse.vercel.app/sitemap.xml

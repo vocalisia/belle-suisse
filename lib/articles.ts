@@ -39,7 +39,7 @@ const articles: Article[] = [
     readTime: 8,
     products: [
       { name: 'Skin Caviar Luxe Cream', brand: 'La Prairie', price: 485, rating: 4.8, image: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400&h=400&fit=crop', affiliateUrl: '#', availableAt: 'Manor' },
-      { name: 'Prime Renewing Pack', brand: 'Valmont', price: 195, rating: 4.7, image: 'https://images.unsplash.com/photo-1570194065650-d99fb4a38691?w=400&h=400&fit=crop', affiliateUrl: '#', availableAt: 'Globus' },
+      { name: 'Prime Renewing Pack', brand: 'Valmont', price: 195, rating: 4.7, image: 'https://images.unsplash.com/photo-1612817288484-6f916006741a?w=400&h=400&fit=crop', affiliateUrl: '#', availableAt: 'Globus' },
       { name: 'Grenade Crème de Nuit', brand: 'Weleda', price: 32, rating: 4.5, image: 'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400&h=400&fit=crop', affiliateUrl: '#', availableAt: 'Manor' },
     ],
     content: `La Suisse n'est pas seulement le pays des montres et du chocolat. C'est aussi un paradis de la cosmétique de luxe. Des laboratoires de Genève aux ateliers de Zurich, les marques suisses repoussent les limites de l'innovation skincare.
@@ -119,7 +119,7 @@ NON NÉGOCIABLE ! Le SPF est le meilleur anti-âge qui existe. Minimum SPF 30, t
     readTime: 10,
     products: [
       { name: 'Skin Caviar Luxe Cream', brand: 'La Prairie', price: 485, rating: 4.8, image: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400&h=400&fit=crop', affiliateUrl: '#', availableAt: 'Manor' },
-      { name: 'Prime Renewing Pack', brand: 'Valmont', price: 195, rating: 4.7, image: 'https://images.unsplash.com/photo-1570194065650-d99fb4a38691?w=400&h=400&fit=crop', affiliateUrl: '#', availableAt: 'Globus' },
+      { name: 'Prime Renewing Pack', brand: 'Valmont', price: 195, rating: 4.7, image: 'https://images.unsplash.com/photo-1612817288484-6f916006741a?w=400&h=400&fit=crop', affiliateUrl: '#', availableAt: 'Globus' },
     ],
     content: `Dans le monde de la cosmétique de luxe, deux noms suisses dominent : La Prairie et Valmont. Deux maisons genevoises, deux approches du soin ultime. Mais laquelle mérite vraiment votre investissement ?
 
@@ -217,7 +217,7 @@ Deux couches de mascara pour des cils volumineux qui complètent le regard. Et v
     tags: ['fond de teint', 'type de peau', 'guide'],
     author: 'Marie Laurent',
     date: '2025-02-20',
-    image: 'https://images.unsplash.com/photo-1631730486784-5fba4ef751b7?w=1200&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=1200&h=600&fit=crop',
     featured: false,
     readTime: 7,
     products: [],
@@ -318,7 +318,7 @@ Formule naturelle à base de vitamine C et pivoine blanche. Efficace sur les tac
     tags: ['mascara', 'waterproof', 'test', 'comparatif'],
     author: 'Clara Dubois',
     date: '2025-03-10',
-    image: 'https://images.unsplash.com/photo-1631214500115-598fc2cb8ada?w=1200&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?w=1200&h=600&fit=crop',
     featured: false,
     readTime: 6,
     products: [],
@@ -351,7 +351,7 @@ Formule naturelle à base de vitamine C et pivoine blanche. Efficace sur les tac
     tags: ['spa', 'wellness', 'suisse', 'weekend', 'détente'],
     author: 'Sophie Müller',
     date: '2025-03-15',
-    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=1200&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop',
     featured: true,
     readTime: 10,
     products: [],
@@ -440,6 +440,137 @@ Créé en 1926, le Skin Food est devenu un culte mondial. Cette crème ultra-nou
 ## Weleda aujourd'hui
 
 Présente dans plus de 50 pays, Weleda réalise un chiffre d'affaires de plus de 400 millions d'euros. Preuve que bio et business font bon ménage quand la qualité est au rendez-vous.`,
+  },
+  {
+    slug: 'style-suisse-tendances-mode-2025',
+    title: 'Style suisse : les tendances mode qui définissent 2025',
+    description: 'Découvrez les tendances mode les plus en vogue en Suisse pour 2025.',
+    excerpt: 'Minimalisme chic, luxe discret et matières nobles : le style suisse s\'impose.',
+    category: 'mode',
+    tags: ['mode', 'tendances', 'style', 'suisse', '2025'],
+    author: 'Clara Dubois',
+    date: '2025-03-22',
+    image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&h=600&fit=crop',
+    featured: false,
+    readTime: 6,
+    products: [],
+    content: `La mode suisse a toujours été synonyme de qualité et de discrétion. En 2025, ce style unique s'affirme plus que jamais sur la scène internationale.
+
+## Le minimalisme chic à la suisse
+
+Les Suissesses ont élevé le minimalisme au rang d'art. Des coupes épurées, des couleurs neutres et des matières nobles composent un vestiaire intemporel. Moins, c'est plus — et c'est terriblement élégant.
+
+## Les marques suisses à connaître
+
+Akris, Bally, Zimmerli : ces maisons suisses incarnent le luxe discret. Pas de logos criards, mais une qualité de fabrication incomparable. Le vrai luxe, c'est celui qui ne se montre pas.
+
+## L'influence alpine
+
+La montagne inspire les créateurs suisses. On retrouve dans les collections des textures de laine, des teintes terreuses et des silhouettes fonctionnelles mais raffinées. Le style après-ski chic est devenu une catégorie à part entière.
+
+## Notre conseil
+
+Investissez dans des pièces intemporelles plutôt que dans les tendances éphémères. Un manteau Akris, un sac Bally ou des sous-vêtements Zimmerli dureront des années.`,
+  },
+  {
+    slug: 'accessoires-luxe-suisses-montres-bijoux',
+    title: 'Accessoires de luxe suisses : au-delà des montres',
+    description: 'La Suisse excelle aussi dans les bijoux, la maroquinerie et les lunettes de luxe.',
+    excerpt: 'Montres, bijoux, sacs : l\'artisanat suisse brille dans tous les accessoires de luxe.',
+    category: 'mode',
+    tags: ['accessoires', 'luxe', 'bijoux', 'montres', 'suisse'],
+    author: 'Sophie Müller',
+    date: '2025-03-25',
+    image: 'https://images.unsplash.com/photo-1515562141589-67f0d569b6f4?w=1200&h=600&fit=crop',
+    featured: false,
+    readTime: 7,
+    products: [],
+    content: `Quand on pense luxe suisse, on pense montres. Mais l'artisanat helvétique excelle dans bien d'autres domaines.
+
+## La joaillerie suisse
+
+Chopard, de Grisogono, Bucherer : la joaillerie suisse rivalise avec Place Vendôme. Des pierres exceptionnelles serties avec une précision horlogère — c'est la signature suisse.
+
+## La maroquinerie
+
+Bally, fondée en 1851 à Schönenwerd, est le porte-drapeau de la maroquinerie suisse. Ses sacs et chaussures allient tradition artisanale et design contemporain.
+
+## Les lunettes
+
+La marque suisse Götti propose des montures minimalistes fabriquées à la main. Un accessoire discret mais qui fait toute la différence.
+
+## Où acheter en Suisse
+
+Bahnhofstrasse à Zurich, rue du Rhône à Genève, ou Via Nassa à Lugano : les plus belles adresses pour dénicher ces trésors.`,
+  },
+  {
+    slug: 'soins-capillaires-suisses-naturels',
+    title: 'Soins capillaires suisses : le naturel au sommet',
+    description: 'Les meilleures marques suisses de soins capillaires naturels et bio.',
+    excerpt: 'Rausch, Pureté, Weleda Hair : les soins capillaires suisses misent sur la nature alpine.',
+    category: 'cheveux',
+    tags: ['cheveux', 'soins', 'naturel', 'suisse', 'Rausch'],
+    author: 'Marie Laurent',
+    date: '2025-03-12',
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&h=600&fit=crop',
+    featured: false,
+    readTime: 6,
+    products: [],
+    content: `Les Alpes suisses regorgent de plantes médicinales extraordinaires pour les cheveux. Les marques locales l'ont bien compris.
+
+## Rausch : le trésor caché suisse
+
+Fondée en 1890, Rausch est LA marque suisse de soins capillaires par excellence. Leurs shampoings aux herbes suisses sont formulés avec des extraits de plantes récoltées dans les Alpes.
+
+## Les actifs alpins pour les cheveux
+
+Edelweiss, arnica, tussilage, sauge : les plantes alpines sont riches en antioxydants et en nutriments parfaits pour les cheveux. Elles renforcent, nourrissent et protègent la fibre capillaire.
+
+## Notre routine capillaire suisse
+
+1. Shampoing Rausch aux herbes suisses
+2. Après-shampoing Weleda à l'avoine
+3. Masque hebdomadaire au beurre de karité alpin
+4. Sérum protecteur avant coiffage
+
+## Où trouver ces produits
+
+En pharmacie, chez Coop Vitality, ou chez Manor. Les prix sont très accessibles : comptez 8 à 15 CHF pour un shampoing Rausch.`,
+  },
+  {
+    slug: 'coiffures-tendance-2025-looks-adopter',
+    title: 'Coiffures tendance 2025 : les looks à adopter',
+    description: 'Les coupes et coiffures qui dominent 2025 en Suisse et en Europe.',
+    excerpt: 'Bob suisse, waves naturelles, blond miel : les coiffures qui font fureur.',
+    category: 'cheveux',
+    tags: ['coiffures', 'tendances', '2025', 'bob', 'waves'],
+    author: 'Clara Dubois',
+    date: '2025-03-08',
+    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop',
+    featured: false,
+    readTime: 5,
+    products: [],
+    content: `2025 célèbre le naturel et l'élégance sans effort. Voici les coiffures qui cartonnent.
+
+## 1. Le Swiss Bob
+
+Le carré court et structuré à la suisse est LA coupe de 2025. Net, précis, facile à entretenir — il incarne la perfection helvétique.
+
+## 2. Les waves naturelles
+
+Fini les boucles trop travaillées. Place aux ondulations naturelles, comme si vous reveniez d'une balade au bord du lac Léman.
+
+## 3. Le blond miel alpin
+
+La coloration star de l'année : un blond chaud et lumineux inspiré du miel des Alpes. Naturel, flatteur et qui va à presque tout le monde.
+
+## 4. La queue de cheval basse élégante
+
+Parfaite pour le bureau ou un dîner en ville. Basse, lisse, avec une raie au milieu. Simple et sophistiquée — très Genève.
+
+## Les meilleurs salons en Suisse
+
+Pour une coupe au top, direction les salons Mod's Hair (Genève, Lausanne, Zurich) ou les salons indépendants de la Bahnhofstrasse.`,
   },
 ];
 

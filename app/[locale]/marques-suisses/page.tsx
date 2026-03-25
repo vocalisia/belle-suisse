@@ -5,6 +5,8 @@ import Breadcrumb from '@/components/layout/Breadcrumb';
 import NewsletterBanner from '@/components/newsletter/NewsletterBanner';
 import { getAllBrands } from '@/lib/brands';
 
+export const metadata = { title: 'Marques Suisses' };
+
 export default function MarquesSuissesPage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('home');

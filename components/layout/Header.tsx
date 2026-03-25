@@ -39,6 +39,9 @@ export default function Header() {
             : 'bg-white'
         }`}
       >
+        <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[100] focus:px-4 focus:py-2 focus:bg-noir-elegant focus:text-white focus:rounded-lg">
+          Skip to content
+        </a>
         <div className="max-w-7xl mx-auto px-4">
           {/* Top bar */}
           <div className="flex items-center justify-between h-16 lg:h-20">

@@ -1,6 +1,13 @@
 import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 
+const socials = [
+  { name: 'Instagram', icon: 'I', href: 'https://instagram.com/bellesuisse.ch' },
+  { name: 'TikTok', icon: 'T', href: 'https://tiktok.com/@bellesuisse.ch' },
+  { name: 'Pinterest', icon: 'P', href: 'https://pinterest.com/bellesuissech' },
+  { name: 'YouTube', icon: 'Y', href: 'https://youtube.com/@bellesuisse' },
+];
+
 export default function Footer() {
   const t = useTranslations('footer');
   const tn = useTranslations('nav');
@@ -19,7 +26,7 @@ export default function Footer() {
     { label: 'La Prairie', href: `/${locale}/marques-suisses/la-prairie` },
     { label: 'Valmont', href: `/${locale}/marques-suisses/valmont` },
     { label: 'Weleda', href: `/${locale}/marques-suisses/weleda` },
-    { label: 'Declare', href: `/${locale}/marques-suisses/declare` },
+    { label: 'Declaré', href: `/${locale}/marques-suisses/declare` },
     { label: 'Mavala', href: `/${locale}/marques-suisses/mavala` },
   ];
 
@@ -32,19 +39,20 @@ export default function Footer() {
             <h3 className="font-playfair text-2xl font-bold mb-3">
               BELLE <span className="text-rose-principal">SUISSE</span>
             </h3>
-            <p className="text-white/60 text-sm font-cormorant text-lg italic">
+            <p className="text-white/60 font-cormorant text-lg italic">
               {t('slogan')}
             </p>
-            <div className="flex gap-4 mt-6">
-              {/* Social icons */}
-              {['Instagram', 'TikTok', 'Pinterest', 'YouTube'].map((social) => (
+            <div className="flex gap-3 mt-6">
+              {socials.map((social) => (
                 <a
-                  key={social}
-                  href="#"
+                  key={social.name}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-rose-principal transition-colors"
-                  aria-label={social}
+                  aria-label={social.name}
                 >
-                  <span className="text-xs">{social[0]}</span>
+                  <span className="text-xs font-bold">{social.icon}</span>
                 </a>
               ))}
             </div>
@@ -82,7 +90,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* About */}
+          {/* About & Legal */}
           <div>
             <h4 className="font-medium text-sm uppercase tracking-wider mb-4 text-or-luxe">
               {t('about')}
@@ -99,8 +107,23 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href={`/${locale}/faq`} className="text-white/60 hover:text-white text-sm transition-colors">
+                  FAQ
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/newsletter`} className="text-white/60 hover:text-white text-sm transition-colors">
+                  Newsletter
+                </Link>
+              </li>
+              <li>
                 <Link href={`/${locale}/mentions-legales`} className="text-white/60 hover:text-white text-sm transition-colors">
                   {t('legal')}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/cgv`} className="text-white/60 hover:text-white text-sm transition-colors">
+                  CGV
                 </Link>
               </li>
               <li>

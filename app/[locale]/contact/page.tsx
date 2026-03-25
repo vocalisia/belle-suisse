@@ -45,8 +45,9 @@ export default function ContactPage() {
       ) : (
         <form onSubmit={handleSubmit} className="space-y-5 bg-white rounded-3xl p-8 shadow-sm">
           <div>
-            <label className="block text-sm font-medium text-noir-elegant mb-2">{t('name')}</label>
+            <label htmlFor="contact-name" className="block text-sm font-medium text-noir-elegant mb-2">{t('name')}</label>
             <input
+              id="contact-name"
               type="text"
               value={form.name}
               onChange={(e) => setForm({ ...form, name: e.target.value })}
@@ -55,8 +56,9 @@ export default function ContactPage() {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-noir-elegant mb-2">{t('email')}</label>
+            <label htmlFor="contact-email" className="block text-sm font-medium text-noir-elegant mb-2">{t('email')}</label>
             <input
+              id="contact-email"
               type="email"
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
@@ -65,8 +67,9 @@ export default function ContactPage() {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-noir-elegant mb-2">{t('subject')}</label>
+            <label htmlFor="contact-subject" className="block text-sm font-medium text-noir-elegant mb-2">{t('subject')}</label>
             <input
+              id="contact-subject"
               type="text"
               value={form.subject}
               onChange={(e) => setForm({ ...form, subject: e.target.value })}
@@ -75,8 +78,9 @@ export default function ContactPage() {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-noir-elegant mb-2">{t('message')}</label>
+            <label htmlFor="contact-message" className="block text-sm font-medium text-noir-elegant mb-2">{t('message')}</label>
             <textarea
+              id="contact-message"
               value={form.message}
               onChange={(e) => setForm({ ...form, message: e.target.value })}
               required

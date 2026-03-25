@@ -27,7 +27,7 @@ const brands: Brand[] = [
     name: 'Valmont',
     tagline: 'Cosmétique cellulaire',
     description: 'Née en 1985 sur les rives du lac Léman, Valmont est pionnière de la cosmétique cellulaire. La marque utilise l\'ADN et l\'ARN natifs pour régénérer les cellules de la peau. Présente dans les plus beaux spas du monde, Valmont incarne le savoir-faire suisse au service de la beauté.',
-    image: 'https://images.unsplash.com/photo-1570194065650-d99fb4a38691?w=1200&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1612817288484-6f916006741a?w=1200&h=600&fit=crop',
     founded: '1985',
     location: 'Genève',
     specialty: 'Cosmétique cellulaire & spa',

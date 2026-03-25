@@ -91,7 +91,7 @@ export default function ArticleDetailPage({ slug }: { slug: string }) {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
           {/* Main content */}
-          <div className="lg:col-span-2">
+          <article className="lg:col-span-2">
             <ShareButtons
               url={`https://bellesuisse.ch/${locale}/${article.category}/${article.slug}`}
               title={article.title}
@@ -106,7 +106,7 @@ export default function ArticleDetailPage({ slug }: { slug: string }) {
             <p className="mt-8 text-sm text-gris-doux italic border-t pt-4">
               Cet article contient des liens affiliés. En achetant via nos liens, vous soutenez BELLE SUISSE sans surcoût pour vous.
             </p>
-          </div>
+          </article>
 
           {/* Sidebar */}
           <aside className="space-y-6">

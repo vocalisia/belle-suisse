@@ -46,6 +46,7 @@ export default function NewsletterForm() {
         value={firstName}
         onChange={(e) => setFirstName(e.target.value)}
         placeholder="Prénom"
+        aria-label="Prénom"
         className="w-full px-5 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-rose-principal"
       />
       <input
@@ -53,6 +54,7 @@ export default function NewsletterForm() {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder={t('placeholder')}
+        aria-label={t('placeholder')}
         required
         className="w-full px-5 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-rose-principal"
       />
