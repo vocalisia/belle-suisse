@@ -1,6 +1,7 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import NewsletterBanner from '@/components/newsletter/NewsletterBanner';
+import JsonLd from '@/components/seo/JsonLd';
 
 export const metadata = { title: 'FAQ' };
 
@@ -42,8 +43,22 @@ const faqs = [
 export default function FAQPage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.a,
+      },
+    })),
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <JsonLd data={faqJsonLd} />
       <Breadcrumb items={[{ label: 'FAQ' }]} />
 
       <h1 className="font-playfair text-4xl md:text-5xl font-bold text-noir-elegant mb-4">

@@ -40,18 +40,49 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
     return true;
   }).slice(0, 8);
 
-  const jsonLd = {
+  const websiteJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'BELLE SUISSE',
-    url: `https://bellesuisse.ch/${locale}`,
+    url: `https://belle-suisse.vercel.app/${locale}`,
     description: t('hero_subtitle'),
     inLanguage: locale,
     publisher: {
       '@type': 'Organization',
       name: 'BELLE SUISSE',
-      logo: { '@type': 'ImageObject', url: 'https://bellesuisse.ch/images/logo.svg' },
+      logo: { '@type': 'ImageObject', url: 'https://belle-suisse.vercel.app/icon.svg' },
     },
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `https://belle-suisse.vercel.app/${locale}/recherche?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
+  const orgJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'BELLE SUISSE',
+    alternateName: 'Belle Suisse Magazine',
+    url: 'https://belle-suisse.vercel.app',
+    logo: { '@type': 'ImageObject', url: 'https://belle-suisse.vercel.app/icon.svg' },
+    description: 'Le premier magazine digital dédié à la beauté suisse.',
+    sameAs: [
+      'https://instagram.com/bellesuisse.ch',
+      'https://tiktok.com/@bellesuisse.ch',
+      'https://pinterest.com/bellesuissech',
+      'https://youtube.com/@bellesuisse',
+    ],
+    address: { '@type': 'PostalAddress', addressCountry: 'CH' },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer service',
+      availableLanguage: ['French', 'German', 'English', 'Italian', 'Russian'],
+    },
+    knowsAbout: ['Swiss beauty', 'Skincare', 'Swiss cosmetic brands', 'Anti-aging', 'Luxury beauty', 'Wellness Switzerland'],
   };
 
   const mapArticles = (articles: ReturnType<typeof getAllArticles>) =>
@@ -69,7 +100,8 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
 
   return (
     <>
-      <JsonLd data={jsonLd} />
+      <JsonLd data={websiteJsonLd} />
+      <JsonLd data={orgJsonLd} />
       <div className="max-w-7xl mx-auto px-4 py-8">
         {/* Hero */}
         <HeroSection

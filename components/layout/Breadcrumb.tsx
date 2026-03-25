@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useLocale } from 'next-intl';
+import JsonLd from '@/components/seo/JsonLd';
 
 interface BreadcrumbItem {
   label: string;
@@ -9,7 +10,28 @@ interface BreadcrumbItem {
 export default function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
   const locale = useLocale();
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'BELLE SUISSE',
+        item: `https://belle-suisse.vercel.app/${locale}`,
+      },
+      ...items.map((item, i) => ({
+        '@type': 'ListItem',
+        position: i + 2,
+        name: item.label,
+        ...(item.href ? { item: `https://belle-suisse.vercel.app${item.href}` } : {}),
+      })),
+    ],
+  };
+
   return (
+    <>
+    <JsonLd data={breadcrumbJsonLd} />
     <nav className="flex items-center gap-2 text-sm text-gris-doux mb-6" aria-label="Breadcrumb">
       <Link href={`/${locale}`} className="hover:text-noir-elegant transition-colors">
         BELLE SUISSE
@@ -29,5 +51,6 @@ export default function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
         </span>
       ))}
     </nav>
+    </>
   );
 }

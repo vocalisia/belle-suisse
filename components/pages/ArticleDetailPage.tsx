@@ -43,19 +43,81 @@ export default function ArticleDetailPage({ slug }: { slug: string }) {
       slug: a.slug,
     }));
 
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: article.title,
-    description: article.description,
-    image: article.image,
-    author: { '@type': 'Person', name: article.author },
-    datePublished: article.date,
-    publisher: {
-      '@type': 'Organization',
-      name: 'BELLE SUISSE',
-    },
-  };
+  const baseUrl = 'https://belle-suisse.vercel.app';
+  const articleUrl = `${baseUrl}/${locale}/${article.category}/${article.slug}`;
+
+  const jsonLd = article.category === 'reviews' && article.products.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'Review',
+        name: article.title,
+        description: article.description,
+        author: {
+          '@type': 'Person',
+          name: article.author,
+          url: `${baseUrl}/${locale}/a-propos`,
+          jobTitle: 'Rédactrice beauté',
+          worksFor: { '@type': 'Organization', name: 'BELLE SUISSE' },
+        },
+        datePublished: article.date,
+        dateModified: article.date,
+        publisher: {
+          '@type': 'Organization',
+          name: 'BELLE SUISSE',
+          url: baseUrl,
+          logo: { '@type': 'ImageObject', url: `${baseUrl}/icon.svg` },
+        },
+        mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
+        image: article.image,
+        inLanguage: locale,
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: article.products[0].rating,
+          bestRating: 5,
+          worstRating: 1,
+        },
+        itemReviewed: {
+          '@type': 'Product',
+          name: article.products[0].name,
+          brand: { '@type': 'Brand', name: article.products[0].brand },
+          image: article.products[0].image,
+          offers: {
+            '@type': 'Offer',
+            price: article.products[0].price,
+            priceCurrency: 'CHF',
+            availability: 'https://schema.org/InStock',
+          },
+        },
+      }
+    : {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: article.title,
+        description: article.description,
+        image: article.image,
+        author: {
+          '@type': 'Person',
+          name: article.author,
+          url: `${baseUrl}/${locale}/a-propos`,
+          jobTitle: 'Rédactrice beauté',
+          worksFor: { '@type': 'Organization', name: 'BELLE SUISSE' },
+        },
+        datePublished: article.date,
+        dateModified: article.date,
+        publisher: {
+          '@type': 'Organization',
+          name: 'BELLE SUISSE',
+          url: baseUrl,
+          logo: { '@type': 'ImageObject', url: `${baseUrl}/icon.svg` },
+        },
+        mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
+        articleSection: categoryLabel,
+        inLanguage: locale,
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['article h1', 'article p:first-of-type'],
+        },
+      };
 
   // Simple markdown-like rendering: split by ## for sections
   const contentSections = article.content.split('\n\n').map((para, i) => {

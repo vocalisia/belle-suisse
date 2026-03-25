@@ -38,12 +38,19 @@ export default function BrandDetailPage({ params }: { params: { locale: string; 
 
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Brand',
+    '@type': 'Organization',
     name: brand.name,
     description: brand.description,
     image: brand.image,
     url: brand.website,
     foundingDate: brand.founded,
+    logo: { '@type': 'ImageObject', url: brand.image },
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: brand.location,
+      addressCountry: 'CH',
+    },
+    knowsAbout: brand.specialty,
   };
 
   return (
