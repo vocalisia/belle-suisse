@@ -4,6 +4,7 @@ import { getAllArticles } from '@/lib/articles';
 import { getAllBrands } from '@/lib/brands';
 
 const baseUrl = 'https://belle-suisse.vercel.app';
+const siteLastUpdated = new Date('2026-03-25');
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllArticles();
@@ -16,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const locale of locales) {
     entries.push({
       url: `${baseUrl}/${locale}`,
-      lastModified: new Date(),
+      lastModified: siteLastUpdated,
       changeFrequency: 'daily',
       priority: 1,
     });
@@ -27,7 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const cat of categories) {
       entries.push({
         url: `${baseUrl}/${locale}/${cat}`,
-        lastModified: new Date(),
+        lastModified: siteLastUpdated,
         changeFrequency: 'weekly',
         priority: 0.8,
       });
@@ -51,7 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const brand of brands) {
       entries.push({
         url: `${baseUrl}/${locale}/marques-suisses/${brand.slug}`,
-        lastModified: new Date(),
+        lastModified: siteLastUpdated,
         changeFrequency: 'monthly',
         priority: 0.6,
       });
@@ -64,7 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const page of staticPages) {
       entries.push({
         url: `${baseUrl}/${locale}/${page}`,
-        lastModified: new Date(),
+        lastModified: siteLastUpdated,
         changeFrequency: 'monthly',
         priority: 0.4,
       });

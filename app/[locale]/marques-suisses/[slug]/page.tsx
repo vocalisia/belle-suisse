@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
@@ -8,6 +9,11 @@ import NewsletterBanner from '@/components/newsletter/NewsletterBanner';
 import JsonLd from '@/components/seo/JsonLd';
 import { getBrandBySlug } from '@/lib/brands';
 import { getArticlesByCategory, getAllArticles } from '@/lib/articles';
+import { generateBrandMetadata } from '@/lib/metadata';
+
+export async function generateMetadata({ params }: { params: { locale: string; slug: string } }): Promise<Metadata> {
+  return generateBrandMetadata(params.slug, params.locale);
+}
 
 export default function BrandDetailPage({ params }: { params: { locale: string; slug: string } }) {
   unstable_setRequestLocale(params.locale);
